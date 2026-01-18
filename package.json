@@ -1,22 +1,17 @@
 {
   "name": "lumina-finance",
   "version": "1.0.0",
-  "description": "High-end, glassmorphic personal expense tracker with offline-first architecture and cloud sync.",
-  "main": "index.tsx",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "lucide-react": "^0.562.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0",
     "recharts": "^3.6.0"
-  },
-  "keywords": [
-    "finance",
-    "expense-tracker",
-    "glassmorphism",
-    "react",
-    "cloud-sync",
-    "offline-first"
-  ],
-  "author": "Lumina Team",
-  "license": "MIT"
+  }
 }
